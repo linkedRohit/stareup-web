@@ -1,0 +1,25 @@
+
+> stareup@0.0.1 start /home/rohit/stareup-node
+> grunt
+
+>> Local Npm module "grunt-node-inspector" not found. Is it installed?
+
+Running "jshint:all" (jshint) task
+Warning: Path must be a string. Received null Used --force, continuing.
+
+Running "csslint:all" (csslint) task
+>> 2 files lint free.
+
+Running "concurrent:default" (concurrent) task
+>> Local Npm module "grunt-node-inspector" not found. Is it installed?
+>> Local Npm module "grunt-node-inspector" not found. Is it installed?
+
+Running "watch" task
+Waiting...
+
+Running "nodemon:dev" (nodemon) task
+[33m[nodemon] v1.2.1[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: app/views/**/*.* gruntfile.js server.js config/**/*.js app/**/*.js[39m
+[32m[nodemon] starting `node --debug server.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
